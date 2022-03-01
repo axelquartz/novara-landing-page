@@ -1,10 +1,12 @@
 body{
     background-color: #ffffff;
 }
+/*Main container. The parent of every section of the websibe*/
 .container{
     display: flex;
     flex-direction: column;
 }
+/*Header Section*/
 .header{
     background-color: #1f2937;
     display: flex;
@@ -19,23 +21,78 @@ body{
 }
 ul{
     display: flex;
-    background-color: yellow;
 }
 li{
     list-style: none;
     margin: auto 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
 }
+/*Hero section*/
 .hero{
     display: flex;
     padding: 50px 20px;
     background-color: #1f2937;
+    align-items: center;
 }
 .left-section{
     padding: 50px 100px
+}
+.left-section>p{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-section>button{
+    padding: 7px 60px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: #ffffff;
 }
 .right-section{
     padding: 50px 100px
 }
 .right-section>img{
     width: 400px;
+    border-radius: 10px;
+}
+h1{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.information{
+
+}
+.information>h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    font-size: 28px;
+}
+.group-cards{
+    display: flex;
+    margin: 0 120px;
+    justify-content: space-around;
+}
+.card{
+    padding: 20px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: #3882F6 solid 3px;
+}
+.card>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1f2937;
+    margin: 10px 30px;
 }
