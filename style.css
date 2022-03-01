@@ -1,10 +1,11 @@
 body{
-    background-color: #ffffff;
+    margin: auto;
 }
 /*Main container. The parent of every section of the websibe*/
 .container{
     display: flex;
     flex-direction: column;
+    margin: o;
 }
 /*Header Section*/
 .header{
@@ -27,6 +28,7 @@ li{
     margin: auto 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
+    font-size: 16px;
 }
 /*Hero section*/
 .hero{
@@ -41,6 +43,7 @@ li{
 .left-section>p{
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 .left-section>button{
     padding: 7px 60px;
@@ -69,10 +72,11 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #1f2937;
     font-size: 28px;
+    margin: 50px 0;
 }
 .group-cards{
     display: flex;
-    margin: 0 120px;
+    margin: 50px 120px;
     justify-content: space-around;
 }
 .card{
@@ -92,7 +96,72 @@ h1{
 .card>p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #1f2937;
     margin: 10px 30px;
+}
+.testimonial{
+    padding: 100px 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: light;
+    background-color: #e5e7eb;
+}
+.testimonial>h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    text-align: right;
+}
+.cta{
+    display: flex;
+    align-items: center;
+    margin: 100px 120px;
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 10px;
+}
+.left-cta{
+    flex: 3;
+    display: block;
+    margin: 0 40px;
+}
+.left-cta>h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: auto;
+}
+.left-cta>p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin: auto;
+}
+
+.right-cta{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+.cta>.right-cta>button{
+    padding: 7px 60px;
+    background-color: #3882F6;
+    border: solid #ffffff 3px;
+    border-radius: 5px;
+    border: solid #ffffff 3px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: auto;
+}
+.footer{
+    background-color: #1f2937;
+    padding: 30px;
+}
+.footer>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
 }
