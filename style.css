@@ -27,8 +27,11 @@ li{
     list-style: none;
     margin: auto 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
     font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
 }
 /*Hero section*/
 .hero{
@@ -45,7 +48,7 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-.left-section>button{
+.left-section>a>button{
     padding: 7px 60px;
     background-color: #3882F6;
     border-radius: 5px;
@@ -64,9 +67,7 @@ h1{
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
-.information{
-
-}
+/*Information Section*/
 .information>h3{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,6 +75,7 @@ h1{
     font-size: 28px;
     margin: 50px 0;
 }
+/*Cards Information*/
 .group-cards{
     display: flex;
     margin: 50px 120px;
@@ -100,6 +102,7 @@ h1{
     color: #1f2937;
     margin: 10px 30px;
 }
+/*Testimonial Section*/
 .testimonial{
     padding: 100px 250px;
     font-family: Arial, Helvetica, sans-serif;
@@ -112,6 +115,7 @@ h1{
     font-size: 18;
     text-align: right;
 }
+/*Bottom Call to Action Section*/
 .cta{
     display: flex;
     align-items: center;
@@ -138,13 +142,12 @@ h1{
     color: #ffffff;
     margin: auto;
 }
-
 .right-cta{
     flex: 1;
     display: flex;
     align-items: flex-end;
 }
-.cta>.right-cta>button{
+.cta>.right-cta>a>button{
     padding: 7px 60px;
     background-color: #3882F6;
     border: solid #ffffff 3px;
@@ -154,6 +157,7 @@ h1{
     color: #ffffff;
     margin: auto;
 }
+/*Footer Section*/
 .footer{
     background-color: #1f2937;
     padding: 30px;
